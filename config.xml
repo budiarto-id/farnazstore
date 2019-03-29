@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="store.farnazglow.member" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Jejaring FarnazGlow</name>
+<widget id="store.farnazglow.mobile" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>FarnazGlow</name>
     <description>
-        Jejaring FarnazGlow.
+        FarnazGlow.
     </description>
     <author email="makruva.technology@gmail.com" href="http://makruvadigital.com">
         Makruva Digital Solusi
     </author>
-    <content src="https://member.farnazglow.store/" />
+    <content src="https://farnazglow.store/mobileview/" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="tel:*" />
@@ -31,7 +31,7 @@
     </platform>
     <preference name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="false" />
-    <allow-navigation hap-rule="yes" href="https://member.farnazglow.store/*" />
+    <allow-navigation hap-rule="yes" href="https://farnazglow.store/mobileview/*" />
     <platform name="windows">
     </platform>
     <platform name="wp8">
